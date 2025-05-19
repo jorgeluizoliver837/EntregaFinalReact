@@ -20,5 +20,12 @@ export const Container = styled.button`
     margin: auto;
     margin-top:${DS_Spacing.s3};
 
+   
+    &:hover {
+        background-color: ${DS_Colors.primary[400]}; // Exemplo: muda para a cor da borda
+        cursor: pointer; // Adiciona cursor de "mãozinha" para indicar que é clicável
+    }
+
+
 
 `;
